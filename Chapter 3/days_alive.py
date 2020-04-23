@@ -1,0 +1,5 @@
+first_name = input('Name')
+last_name = input('Last')
+age = int(input('Age'))
+days_alive = int(age*365)
+print(f'Hey {first_name} {last_name}, you have live {days_alive}')
